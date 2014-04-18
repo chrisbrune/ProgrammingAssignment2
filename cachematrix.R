@@ -30,5 +30,4 @@ cacheSolve <- function(x) {
             m <- solve(data)
             x$setinversemean(m)
             return (m);
-
 }
